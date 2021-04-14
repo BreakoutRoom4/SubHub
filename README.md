@@ -32,7 +32,7 @@ An app that allow users to watch Youtube livestream, login, create profile in a 
 * An ADD stream/follow button
 * sign in with youtube/google services
 * sync up with youtube/google services
-* Opens the youtube app or the corresponding link in your browser. 
+* Opens the youtube app or the corresponding link to the stream in your browser. 
 
 
 **Optional Nice-to-have Stories**
