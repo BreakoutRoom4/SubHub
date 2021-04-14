@@ -18,7 +18,7 @@ An app that allow users to watch Youtube livestream, login, create profile in a 
 - **Mobile: This app would be for Mobile since Youtube live is aready on websites.**
 - **Story: Let user to have a stream hub similar to twitch.tv but for youtube. It would be a streamline design and simple interface as well as more accurate because of its specific streaming focus compared to Youtube who's infrastructure is so huge and easy to get lost in.**
 - **Market: Depending on the content of livestream there may be a age restriction, app is made for teens aged 13 and up. Our market is the entirety of the youtube viewerbase but more specifically targeted at youtube streaming. If it does well, it could also draw in users that haven't been on youtube as well if they mainly focus on streamers rather than watching videos.**
-- **Habit: This app can be used as often as user want. Our app engagement would depend on how avid of a stream watcher the user is which can range from someone checking in on a streamer that streams once in a while or someone who watches multiple streams throughout a day everyday and needs/wants an area where it is organized for him with notifications, etc.**
+- **Habit: This app can be used as often as user want. Our app engagement would depend on how avid of a stream watcher the user is which can range from someone checking in on a streamer that streams once in a while or someone who watches multiple streams throughout a day everyday and needs/wants an area where it is organized for them with notifications, etc.**
 - **Scope: First we would like to make the mobile user friendly, then we will like to filter different livesteam by games, events age etc.**
 
 ## Product Spec
