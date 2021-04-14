@@ -1,4 +1,7 @@
-# InStock
+Original App Design Project - README Template
+===
+
+# Youtube.tv
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -8,16 +11,15 @@
 
 ## Overview
 ### Description
-We will make an app that will utilize webscraping to check for if certain items are in stock at certain sites
-
+An app that allow users to watch Youtube livestream,login, create profile in a user friendly UI for mobile.
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category: Entertainment/Social Media**
+- **Mobile: This app would be for Mobile since Youtube live is aready on websites**
+- **Story: Let user watch livestreams not are not on Twitch.tv with twitch related UI, allow user to**
+- **Market: Depending on the content of livestream there may be a age restriction, app is made for teens aged 13 and up**
+- **Habit: This app can be used as often as user want, hopeful daily for at least 2hours+ for ads**
+- **Scope: First we would like to make the mobile user friendly, then we will like to filter different livesteam by games, events age etc.**
 
 ## Product Spec
 
@@ -25,45 +27,43 @@ We will make an app that will utilize webscraping to check for if certain items 
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* List Viewer of different livestreams
+* A search feature for livestreams
+* An ADD stream/follow button
+
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User sign in from youtube
+* Create a profile page
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
-
+* Login to Youtube
+   * Register - User signs up or logs into their accoun
+* List of Views
+   * 2x1 view of livestreams
+* Search bar
+   * searh anf filter new live streams
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* View Streams
+* View Profile
+* Search 
 
 **Flow Navigation** (Screen to Screen)
+* Forced Log-in -> Account creation if no log in is available
+* Stream Selection  -> Jumps to Livestream if not go to search 
+* Search -> Jump to searchbar 
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+![](https://i.imgur.com/ICLnkGa.jpg)
 
 ### [BONUS] Digital Wireframes & Mockups
+
 
 ### [BONUS] Interactive Prototype
 
