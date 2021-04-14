@@ -1,7 +1,7 @@
 Original App Design Project - README Template
 ===
 
-# Youtube.tv
+# SubHub
 
 ## Table of Contents
 1. [Overview](#Overview)
