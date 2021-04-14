@@ -11,13 +11,13 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-An app that allow users to watch Youtube livestream,login, create profile in a user friendly UI for mobile.
+An app that allow users to watch Youtube livestream, login, create profile in a user friendly UI for mobile.
 ### App Evaluation
 [Evaluation of your app across the following attributes]
 - **Category: Entertainment/Social Media**
-- **Mobile: This app would be for Mobile since Youtube live is aready on websites**
-- **Story: Let user watch livestreams not are not on Twitch.tv with twitch related UI, allow user to**
-- **Market: Depending on the content of livestream there may be a age restriction, app is made for teens aged 13 and up**
+- **Mobile: This app would be for Mobile since Youtube live is aready on websites.**
+- **Story: Let user to have a stream hub similar to twitch.tv but for youtube. It would be a streamline design and simple interface as well as more accurate because of its specific streaming focus compared to Youtube who's infrastructure is so huge and easy to get lost in.**
+- **Market: Depending on the content of livestream there may be a age restriction, app is made for teens aged 13 and up. Our market is the entirety of the youtube viewerbase but more specifically targeted at youtube streaming.**
 - **Habit: This app can be used as often as user want, hopeful daily for at least 2hours+ for ads**
 - **Scope: First we would like to make the mobile user friendly, then we will like to filter different livesteam by games, events age etc.**
 
@@ -30,21 +30,25 @@ An app that allow users to watch Youtube livestream,login, create profile in a u
 * List Viewer of different livestreams
 * A search feature for livestreams
 * An ADD stream/follow button
+* sign in with youtube/google services
+* sync up with youtube/google services
 
 
 **Optional Nice-to-have Stories**
 
-* User sign in from youtube
-* Create a profile page
+* Create a profile page/customize
+* different "hubs" where user can designate their own groups of youtubers/streamers to watch (ex: i create a tab for specifically minecraft streamers that i follow, etc)
+* notifications on/off option for tabs/streamers
+
 
 ### 2. Screen Archetypes
 
 * Login to Youtube
-   * Register - User signs up or logs into their accoun
+   * Register - User signs up or logs into their account
 * List of Views
    * 2x1 view of livestreams
 * Search bar
-   * searh anf filter new live streams
+   * search and filter new live streams
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
