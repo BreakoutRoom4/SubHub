@@ -87,13 +87,13 @@ scope                   | list     | A space-delimited list of scopes that ident
 state                   | string   | Maintains the state of the application for debugging the permissions
 ### Networking
 List of network requests by screen
-* Login Screen
-* (GET) User login/sign up 
-* Main Screen
-* (GET) Youtube url
-* Profile Screen
-* (Read/GET) Query logged in user object
-* (Update/PUT) Update user profile image
+- Login Screen
+  - (GET) User login/sign up 
+- Main Screen
+  - (GET) Youtube url
+-Profile Screen
+  -(Read/GET) Query logged in user object
+  -(Update/PUT) Update user profile image
 
 #### [OPTIONAL:] Existing API Endpoints
 ##### Youtube Data API
