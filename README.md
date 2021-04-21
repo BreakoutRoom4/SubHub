@@ -91,7 +91,7 @@ List of network requests by screen
   - (GET) User login/sign up 
 - Main Screen
   - (GET) Youtube url
--Profile Screen
+- Profile Screen
   - (Read/GET) Query logged in user object
   - (Update/PUT) Update user profile image
 
