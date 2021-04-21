@@ -86,7 +86,14 @@ response_type           | boolean  | Determines whether the Google OAuth 2.0 end
 scope                   | list     | A space-delimited list of scopes that identify resources on thhe application.
 state                   | string   | Maintains the state of the application for debugging the permissions
 ### Networking
-None planned at the moment
+List of network requests by screen
+Login Screen
+(GET) User login/sign up 
+Main Screen
+(GET) Youtube url
+Profile Screen
+(Read/GET) Query logged in user object
+(Update/PUT) Update user profile image
 #### [OPTIONAL:] Existing API Endpoints
 ##### Youtube Data API
 - Base URL - [https://www.googleapis.com/youtube/v3](https://www.googleapis.com/youtube/v3)
