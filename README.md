@@ -77,7 +77,14 @@ An app that allow users to watch Youtube livestream, login, create profile in a 
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-None planned at the moment
+Property                | Type     | Description
+-----------             |----------|------------
+snippet.thumbnails.(key)| object   | Default thumbnail image
+client_id               | string   | OAuth client ID application
+redirect_uri            |          | Redirects user from Oauth to the app
+response_type           | boolean  | Determines whether the Google OAuth 2.0 endpoint returns an authorization code.
+scope                   | list     | A space-delimited list of scopes that identify resources on thhe application.
+state                   | string   | Maintains the state of the application for debugging the permissions
 ### Networking
 None planned at the moment
 #### [OPTIONAL:] Existing API Endpoints
