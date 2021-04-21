@@ -95,11 +95,11 @@ List of network requests by screen
 * (Read/GET) Query logged in user object
 * (Update/PUT) Update user profile image
 * https://accounts.google.com/o/oauth2/auth?
-  client_id=1084945748469-eg34imk572gdhu83gj5p0an9fut6urp5.apps.googleusercontent.com&
-  redirect_uri=http%3A%2F%2Flocalhost%2Foauth2callback&
-  scope=https://www.googleapis.com/auth/youtube&
-  response_type=code&
-  access_type=offline
+  *client_id=1084945748469-eg34imk572gdhu83gj5p0an9fut6urp5.apps.googleusercontent.com&
+  *redirect_uri=http%3A%2F%2Flocalhost%2Foauth2callback&
+  *scope=https://www.googleapis.com/auth/youtube&
+  *response_type=code&
+  *access_type=offline
 #### [OPTIONAL:] Existing API Endpoints
 ##### Youtube Data API
 - Base URL - [https://www.googleapis.com/youtube/v3](https://www.googleapis.com/youtube/v3)
