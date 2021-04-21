@@ -92,8 +92,8 @@ List of network requests by screen
 - Main Screen
   - (GET) Youtube url
 -Profile Screen
-  -(Read/GET) Query logged in user object
-  -(Update/PUT) Update user profile image
+  - (Read/GET) Query logged in user object
+  - (Update/PUT) Update user profile image
 
 #### [OPTIONAL:] Existing API Endpoints
 ##### Youtube Data API
