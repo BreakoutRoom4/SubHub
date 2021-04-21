@@ -108,7 +108,7 @@ List of network requests by screen
     public void done(ParseObject channels, ParseException e) {
     if (e == null) {
       channels.put("channel", “https://www.youtube.com/channel/UC5iC25Jaeo6OGZB60Xsr7sQ”);
-	    - channels.put(“favorites”, https://www.youtube.com/channel/UC5iC25Jaeo6OGZB60Xsr7sQ);
+      channels.put(“favorites”, https://www.youtube.com/channel/UC5iC25Jaeo6OGZB60Xsr7sQ);
       channels.saveInBackground();
     }
   }
