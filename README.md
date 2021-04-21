@@ -77,8 +77,16 @@ An app that allow users to watch Youtube livestream, login, create profile in a 
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+None planned at the moment
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+None planned at the moment
+#### [OPTIONAL:] Existing API Endpoints
+##### Youtube Data API
+- Base URL - [https://www.googleapis.com/youtube/v3](https://www.googleapis.com/youtube/v3)
+
+   HTTP Verb | Endpoint | Description
+   ----------|----------|------------
+    `GET`    | /channels?part=contentDetails&channelId={channelId} | Get all details of a channel according to id
+    `GET`    | /channels?part=contentDetails&channelId={channelId1, channelId2, etc} | Return json object with list of channels according to id
+    `GET`    | /search?part=snippet&q={search keyword}&type=channel&key={API_KEY} | Returns search results in the form of snippets for channels that contain the search keyword (ex: pokemon)
+    `GET`    | /search?part=snippet&q={search keyword}&type=video&key={API_KEY} | Returns search results in the form of snippets for videos that contain the search keyword
