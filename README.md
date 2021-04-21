@@ -102,17 +102,18 @@ List of network requests by screen
   - (GET) Youtube url
   - (DELETE) Delete a channel from your list 
   - (ADD) Add a channel to your list 
-  - ParseQuery<ParseObject> query = ParseQuery.getQuery("ChannelList");
-  - query.getInBackground("j3GZKCpqN2", new GetCallback<ParseObject>() {
-    - public void done(ParseObject channels, ParseException e) {
-    - if (e == null) {
-      - channels.put("channel", “https://www.youtube.com/channel/UC5iC25Jaeo6OGZB60Xsr7sQ”);
+```swift
+  ParseQuery<ParseObject> query = ParseQuery.getQuery("ChannelList");
+  query.getInBackground("j3GZKCpqN2", new GetCallback<ParseObject>() {
+    public void done(ParseObject channels, ParseException e) {
+    if (e == null) {
+      channels.put("channel", “https://www.youtube.com/channel/UC5iC25Jaeo6OGZB60Xsr7sQ”);
 	    - channels.put(“favorites”, https://www.youtube.com/channel/UC5iC25Jaeo6OGZB60Xsr7sQ);
-      - channels.saveInBackground();
+      channels.saveInBackground();
     }
   }
 });
-
+```
 - Profile Screen
   - (Read/GET) Query logged in user object
   - (Update/PUT) Update user profile image
