@@ -92,11 +92,11 @@ List of network requests by screen
   
 - private void loginUser(String username, String password) {
   - ParseUser.logInInBackground(username, password, new LogInCallback(){
-      - @Override
-       - public void done(ParseUser user, ParseException e) {
-          - if(e!=null){
-        - Toast.makeText(LoginActivity.this , "Issue with login",Toast.LENGTH_SHORT).show();
-               - return;
+       @Override
+        public void done(ParseUser user, ParseException e) {
+           if(e!=null){
+         Toast.makeText(LoginActivity.this , "Issue with login",Toast.LENGTH_SHORT).show();
+                return;
 
 - Main Screen
   - (GET) Youtube url
