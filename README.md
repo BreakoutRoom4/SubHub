@@ -90,13 +90,13 @@ List of network requests by screen
 - Login Screen
   - (GET) User login/sign up 
   - 
-*private void loginUser(String username, String password) {
+|private void loginUser(String username, String password) {
    ParseUser.logInInBackground(username, password, new LogInCallback(){
        @Override
        public void done(ParseUser user, ParseException e) {
            if(e!=null){
         Toast.makeText(LoginActivity.this , "Issue with login",Toast.LENGTH_SHORT).show();
-               return;
+               return;|
 
 - Main Screen
   - (GET) Youtube url
