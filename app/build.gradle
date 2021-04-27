@@ -8,7 +8,11 @@ android {
 
     defaultConfig {
         applicationId "com.example.subhub"
+<<<<<<< HEAD
         minSdkVersion 16
+=======
+        minSdkVersion 21
+>>>>>>> 665ed70e889da51563702025fb9f6e16e429c1c6
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"

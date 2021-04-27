@@ -1,6 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+<<<<<<< HEAD
     <style name="Theme.Subhub" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+=======
+    <style name="Theme.SubHub" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+>>>>>>> 665ed70e889da51563702025fb9f6e16e429c1c6
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>

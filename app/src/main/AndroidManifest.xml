@@ -8,7 +8,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+<<<<<<< HEAD
         android:theme="@style/Theme.Subhub">
+=======
+        android:theme="@style/Theme.SubHub">
+>>>>>>> 665ed70e889da51563702025fb9f6e16e429c1c6
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
