@@ -10,7 +10,6 @@ import android.view.MenuItem;
 
 import com.example.subhub.fragments.HomeFragment;
 import com.example.subhub.fragments.ProfileFragment;
-import com.example.subhub.fragments.SearchFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
