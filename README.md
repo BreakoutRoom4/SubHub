@@ -29,22 +29,22 @@ An app that allow users to watch Youtube livestream, login, create profile in a 
 
 * [x] Navigation tab. 
 * [x] Login screen.
-* [] List Viewer of different livestreams.
-* [] A search feature for livestreams and possibly channels.
-* [] An ADD stream/follow button.
-* [] sign in with youtube/google services.
-* [] sync up with youtube/google services.
-* [] Opens the youtube app or the corresponding link to the stream in your browser.
+* [ ] List Viewer of different livestreams.
+* [ ] A search feature for livestreams and possibly channels.
+* [ ] An ADD stream/follow button.
+* [ ] sign in with youtube/google services.
+* [ ] sync up with youtube/google services.
+* [ ] Opens the youtube app or the corresponding link to the stream in your browser.
 
 
 **Optional Nice-to-have Stories**
 
-* [] Create a profile page/customize 
-* [] different "hubs" where user can designate their own groups of youtubers/streamers to watch (ex: i create a tab for specifically minecraft streamers that i follow, etc)
-* [] notifications on/off option for tabs/streamers 
-* [] Ability to watch the stream on the app itself if possible.
-* [] Tab of top streamers if the Youtube API allows for it. 
-* [] Recommendations of different livestreams based on who you follow. 
+* [ ] Create a profile page/customize 
+* [ ] different "hubs" where user can designate their own groups of youtubers/streamers to watch (ex: i create a tab for specifically minecraft streamers that i follow, etc)
+* [ ] notifications on/off option for tabs/streamers 
+* [ ] Ability to watch the stream on the app itself if possible.
+* [ ] Tab of top streamers if the Youtube API allows for it. 
+* [ ] Recommendations of different livestreams based on who you follow. 
 
 ### 2. Screen Archetypes
 
@@ -130,3 +130,6 @@ List of network requests by screen
     `GET`    | /channels?part=contentDetails&channelId={channelId1, channelId2, etc} | Return json object with list of channels according to id
     `GET`    | /search?part=snippet&q={search keyword}&type=channel&key={API_KEY} | Returns search results in the form of snippets for channels that contain the search keyword (ex: pokemon)
     `GET`    | /search?part=snippet&q={search keyword}&type=video&key={API_KEY} | Returns search results in the form of snippets for videos that contain the search keyword
+    
+## Build Progress 
+<img src='gif1.gif' width=350 height=700 title='Log in' width='' alt='Log in' />
