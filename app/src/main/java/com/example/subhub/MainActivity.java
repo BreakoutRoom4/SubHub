@@ -8,6 +8,7 @@ import androidx.fragment.app.FragmentManager;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.example.subhub.fragments.DiscoverFragment;
 import com.example.subhub.fragments.HomeFragment;
 import com.example.subhub.fragments.ProfileFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -28,13 +29,13 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 Fragment fragment;
                 switch (item.getItemId()) {
-                    case R.id.action_compose:
+                    case R.id.action_home:
                         // do something here
                         fragment = new HomeFragment();
                         break;
-                    case R.id.action_home:
+                    case R.id.action_discover:
                         // do something here
-                        fragment = new SearchFragment();
+                        fragment = new DiscoverFragment();
                         break;
                     case R.id.action_profile:
                     default:
