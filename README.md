@@ -27,8 +27,8 @@ An app that allow users to watch Youtube livestream, login, create profile in a 
 
 **Required Must-have Stories**
 
-* Navigation tab [x]
-* Login screen [x]
+* [x] Navigation tab 
+* [x] Login screen 
 * List Viewer of different livestreams []
 * A search feature for livestreams and possibly channels []
 * An ADD stream/follow button []
