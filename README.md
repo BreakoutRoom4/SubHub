@@ -132,4 +132,4 @@ List of network requests by screen
     `GET`    | /search?part=snippet&q={search keyword}&type=video&key={API_KEY} | Returns search results in the form of snippets for videos that contain the search keyword
     
 ## Build Progress 
-<img src='gif1.gif' width=250 height=250 title='Log in' width='' alt='Log in' />
+<img src='gif1.gif' width=250 height=400 title='Log in' width='' alt='Log in' />
