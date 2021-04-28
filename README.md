@@ -27,22 +27,24 @@ An app that allow users to watch Youtube livestream, login, create profile in a 
 
 **Required Must-have Stories**
 
-* List Viewer of different livestreams
-* A search feature for livestreams and possibly channels
-* An ADD stream/follow button
-* sign in with youtube/google services
-* sync up with youtube/google services
-* Opens the youtube app or the corresponding link to the stream in your browser. 
+* Navigation tab [x]
+* Login screen [x]
+* List Viewer of different livestreams []
+* A search feature for livestreams and possibly channels []
+* An ADD stream/follow button []
+* sign in with youtube/google services []
+* sync up with youtube/google services []
+* Opens the youtube app or the corresponding link to the stream in your browser. [] 
 
 
 **Optional Nice-to-have Stories**
 
-* Create a profile page/customize
-* different "hubs" where user can designate their own groups of youtubers/streamers to watch (ex: i create a tab for specifically minecraft streamers that i follow, etc)
-* notifications on/off option for tabs/streamers
-* Ability to watch the stream on the app itself if possible. 
-* Tab of top streamers if the Youtube API allows for it.
-* Recommendations of different livestreams based on who you follow.
+* Create a profile page/customize []
+* different "hubs" where user can designate their own groups of youtubers/streamers to watch (ex: i create a tab for specifically minecraft streamers that i follow, etc) []
+* notifications on/off option for tabs/streamers []
+* Ability to watch the stream on the app itself if possible. []
+* Tab of top streamers if the Youtube API allows for it. []
+* Recommendations of different livestreams based on who you follow. []
 
 ### 2. Screen Archetypes
 
