@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayAdapter<String> arrayAdapter;
 
 
+    //Added by Jason
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.my_menu, menu);
@@ -80,12 +81,10 @@ public class MainActivity extends AppCompatActivity {
         List<String> mylist = new ArrayList<>();
         mylist.add("ABC");
         mylist.add("EBC");
+        mylist.add("adfasdccccC");
 
         arrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,mylist);
         listView.setAdapter(arrayAdapter);
-
-
-
 
 
         onCreateUserSetup();
