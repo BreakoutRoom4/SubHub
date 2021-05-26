@@ -184,7 +184,7 @@ public class LoginActivity extends AppCompatActivity {
                     }
                 } else{
                     //error
-                    Toast.makeText(LoginActivity.this, "yo google sign in error", Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(LoginActivity.this, "yo google sign in error", Toast.LENGTH_SHORT).show();
                 }}
             });
         } catch (ApiException e) {
