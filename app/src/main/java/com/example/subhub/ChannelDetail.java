@@ -50,8 +50,6 @@ public class ChannelDetail extends AppCompatActivity {
         params.put("part", "brandingSettings,snippet,contentDetails,statistics");
         //params.put("forUsername", "RamenWarlord");
         params.put("id", "YOUTUBE_CHANNEL_ID");
-        params.put("id", "UC5iC25Jaeo6OGZB60Xsr7sQ");
-
 
         params.put("key", "AIzaSyCw6VKEis4dqqOWfXE0SwDEcE9vqp6aTTA");
         client.get("https://www.googleapis.com/youtube/v3/channels", params, new TextHttpResponseHandler() {
