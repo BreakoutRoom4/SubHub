@@ -32,7 +32,7 @@ This is a test to see if my branch works
 * [ ] List Viewer of different livestreams.
 * [ ] A search feature for livestreams and possibly channels.
 * [ ] An ADD stream/follow button.
-* [ ] sign in with youtube/google services.
+* [x] sign in with youtube/google services.
 * [ ] sync up with youtube/google services.
 * [ ] Opens the youtube app or the corresponding link to the stream in your browser.
 

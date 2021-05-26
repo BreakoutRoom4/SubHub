@@ -13,9 +13,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="19dp"
-        android:layout_marginLeft="19dp"
-        android:layout_marginTop="105dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
         app:srcCompat="@drawable/ic_baseline_games_24" />
 
     <ImageButton
@@ -25,9 +25,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="18dp"
-        android:layout_marginLeft="18dp"
-        android:layout_marginTop="14dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="16dp"
         app:srcCompat="@drawable/ic_baseline_library_music_24" />
 
     <ImageButton
@@ -37,8 +37,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="150dp"
-        android:layout_marginLeft="150dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginLeft="161dp"
         android:layout_marginTop="12dp"
         app:srcCompat="@drawable/ic_baseline_movie_24" />
 
@@ -50,9 +50,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="102dp"
-        android:layout_marginEnd="200dp"
-        android:layout_marginRight="200dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="189dp"
+        android:layout_marginRight="189dp"
         app:srcCompat="@drawable/ic_baseline_sports_24" />
 
     <ImageButton
@@ -62,9 +62,13 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginLeft="79dp"
         android:layout_marginTop="14dp"
         android:layout_marginEnd="62dp"
         android:layout_marginRight="62dp"
+        android:layout_toEndOf="@+id/moviebutton"
+        android:layout_toRightOf="@+id/moviebutton"
         app:srcCompat="@drawable/ic_baseline_local_fire_24" />
 
     <ImageButton
