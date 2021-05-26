@@ -28,26 +28,31 @@ public class ChannelDetail extends AppCompatActivity {
     ImageView ivChannelImage;
     TextView tvChannelName;
     TextView tvSubscriberCount;
-    TextView tvSubHubCount;
-    Button btnSub;
-
+    TextView tvDescription;
+    String bannerurl;
+    String channelname;
+    String subscribers;
+    String profileimage;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        String YOUTUBE_CHANNEL_ID = getIntent().getStringExtra("YOUTUBE_CHANNEL_ID");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_channel_detail);
         ivBanner = findViewById(R.id.ivBanner);
         ivChannelImage = findViewById(R.id.ivChannelImage);
         tvChannelName = findViewById(R.id.tvChannelName);
         tvSubscriberCount = findViewById(R.id.tvSubscriberCount);
-        tvSubHubCount = findViewById(R.id.tvSubHubCount);
-        btnSub = findViewById(R.id.btnSub);
-
-
+        tvDescription = findViewById(R.id.tvDescription);
+        bannerurl = "";
+        profileimage = "";
         AsyncHttpClient client = new AsyncHttpClient();
         RequestParams params = new RequestParams();
-        params.put("part", "brandingSettings");
+        params.put("part", "brandingSettings,snippet,contentDetails,statistics");
         //params.put("forUsername", "RamenWarlord");
+        params.put("id", "YOUTUBE_CHANNEL_ID");
         params.put("id", "UC5iC25Jaeo6OGZB60Xsr7sQ");
+
+
         params.put("key", "AIzaSyCw6VKEis4dqqOWfXE0SwDEcE9vqp6aTTA");
         client.get("https://www.googleapis.com/youtube/v3/channels", params, new TextHttpResponseHandler() {
                     @Override
@@ -56,14 +61,32 @@ public class ChannelDetail extends AppCompatActivity {
                         // called when response HTTP status is "200 OK"
                         //Log.d("bruh",response);
                         try {
-                            Log.d("bruh", "sheesh4..");
                             JSONObject mainObject = new JSONObject(response);
                             Log.d("bruh",mainObject.toString(4));
+                            bannerurl = mainObject.getJSONArray("items").getJSONObject(0).getJSONObject("brandingSettings").getJSONObject("image").getString("bannerExternalUrl");
 
-                            //JSONObject json = mainObject.getJSONObject("items");
+                            //Log.d("bruh", bannerurl);
+                            profileimage = mainObject.getJSONArray("items").getJSONObject(0).getJSONObject("snippet").getJSONObject("thumbnails").getJSONObject("default").getString("url");
 
-                            //Log.d("bruh",json.toString(3));
-                            //tvChannelName.setText(();
+                            Log.d("bruh", profileimage);
+                            subscribers = (mainObject.getJSONArray("items").getJSONObject(0).getJSONObject("statistics").getString("viewCount"));
+                            channelname = mainObject.getJSONArray("items").getJSONObject(0).getJSONObject("brandingSettings").getJSONObject("channel").getString("title");
+                            tvDescription.setText(mainObject.getJSONArray("items").getJSONObject(0).getJSONObject("brandingSettings").getJSONObject("channel").getString("description"));
+                            tvChannelName.setText(channelname);
+                            tvSubscriberCount.setText("Number of views: " + subscribers);
+
+                            bannerurl = bannerurl.replace("\\", "");
+                            profileimage=profileimage.replace("\\", "");
+                            Log.d("bruh", profileimage);
+                            Glide.with(getApplicationContext())
+                                    .load(bannerurl)
+                                    .into(ivBanner);
+
+                            Glide.with(getApplicationContext())
+                                    .load(profileimage)
+                                    .override(400,400)
+                                    .into(ivChannelImage);
+
 
                         } catch (JSONException e) {
                             e.printStackTrace();
@@ -79,9 +102,15 @@ public class ChannelDetail extends AppCompatActivity {
         );
 
 
+/*
+
         Glide.with(this)
-                .load("https://yt3.ggpht.com/Su_HQMxOIcp--VzfW7CRV0_XkvnXjYrXV1U9CZy6WCmyPwGm_jQO-bHbyqGmk1PJaqhxwVqT8w")
+                .load(bannerurl)
                 .into(ivBanner);
+
+
+
+*/
 
 
     }
